@@ -3,8 +3,8 @@
 1. clock_weights_stubbs.xls – Original Excel file containing CpG site coefficients from the Stubbs mouse epigenetic clock.
 2. clock_weights_stubbs.csv – CSV-formatted version of the Stubbs clock CpG site weights for computational use.
 3. code_sub.ipynb – Jupyter notebook implementing the methylation age prediction and statistical analysis pipeline.
-4. GSE93957_exchange.tar.gz – Processed methylation .cov.gz files for GSE93957 used in epigenetic age prediction.
-5. GSE120132_RAW.tar – Raw methylation data files from GSE120132 for downstream processing and analysis.
+4. GSE93957_exchange.tar.gz – Processed methylation .cov.gz files for GSE93957 used in epigenetic age prediction. (download from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93957)
+5. GSE120132_RAW.tar – Raw methylation data files from GSE120132 for downstream processing and analysis. (download from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120132)
 6. GSE120132-GPL17021_series_matrix.txt.gz – Series matrix file containing sample metadata (e.g., age, sex) for one platform of GSE120132.
 7. GSE120132-GPL21103_series_matrix.txt.gz – Alternate platform metadata file for GSE120132, not containing some GSM entries.
 
@@ -15,8 +15,10 @@
 4. ancova_results – Directory containing output files (e.g., model summaries, ANOVA/ANCOVA results) from statistical comparisons of tissue aging patterns.
 
 ## How to run the code
-1. Unzip GSE93957_exchange.tar.gz and GSE120132_RAW.tar
-2. Run every code block in code_sub.ipynb in order
+1. Download GSE93957_exchange.tar.gz and GSE120132_RAW.tar
+2. Put GSE93957_exchange.tar.gz and GSE120132_RAW.tar into this folder, which contains code_sub.ipynb
+3. Unzip GSE93957_exchange.tar.gz and GSE120132_RAW.tar
+4. Run every code block in code_sub.ipynb in order
 
 ## Required Libraries
 1. pandas
