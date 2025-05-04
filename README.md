@@ -25,3 +25,5 @@
 4. gzip (built-in)
 5. glob (built-in)
 6. statsmodels
+
+Note: coded with the assistance of ChatGPT
