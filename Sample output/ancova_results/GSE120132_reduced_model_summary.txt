@@ -1,0 +1,30 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Predicted_Age_Weeks   R-squared:                       0.715
+Model:                             OLS   Adj. R-squared:                  0.712
+Method:                  Least Squares   F-statistic:                     226.6
+Date:                 Fri, 02 May 2025   Prob (F-statistic):          3.69e-144
+Time:                         15:47:28   Log-Likelihood:                -982.70
+No. Observations:                  549   AIC:                             1979.
+Df Residuals:                      542   BIC:                             2010.
+Df Model:                            6                                         
+Covariance Type:             nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                   6.4074      0.222     28.878      0.000       5.972       6.843
+Tissue[T.Blood]             6.5794      0.260     25.316      0.000       6.069       7.090
+Tissue[T.Kidney]            0.9216      0.216      4.263      0.000       0.497       1.346
+Tissue[T.Liver]             4.9372      0.271     18.213      0.000       4.405       5.470
+Tissue[T.Lung]              0.9637      0.274      3.511      0.000       0.425       1.503
+Tissue[T.Muscle]            2.1510      0.271      7.935      0.000       1.619       2.683
+Chronological_Age_weeks     0.0297      0.002     13.731      0.000       0.025       0.034
+==============================================================================
+Omnibus:                       28.707   Durbin-Watson:                   1.456
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               69.992
+Skew:                           0.231   Prob(JB):                     6.33e-16
+Kurtosis:                       4.687   Cond. No.                         465.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Predicted_Age_Weeks   R-squared:                       0.872
+Model:                             OLS   Adj. R-squared:                  0.864
+Method:                  Least Squares   F-statistic:                     97.51
+Date:                 Fri, 02 May 2025   Prob (F-statistic):           8.32e-25
+Time:                         15:47:28   Log-Likelihood:                -157.89
+No. Observations:                   62   AIC:                             325.8
+Df Residuals:                       57   BIC:                             336.4
+Df Model:                            4                                         
+Covariance Type:             nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+Intercept                   4.2449      1.007      4.215      0.000       2.228       6.262
+Tissue[T.Heart]            -4.3874      1.158     -3.788      0.000      -6.707      -2.068
+Tissue[T.Liver]            -0.5882      1.158     -0.508      0.613      -2.908       1.731
+Tissue[T.Lung]             -4.8745      1.139     -4.280      0.000      -7.155      -2.594
+Chronological_Age_weeks     0.5327      0.028     18.989      0.000       0.476       0.589
+==============================================================================
+Omnibus:                        4.373   Durbin-Watson:                   2.083
+Prob(Omnibus):                  0.112   Jarque-Bera (JB):                3.894
+Skew:                          -0.613   Prob(JB):                        0.143
+Kurtosis:                       3.048   Cond. No.                         116.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

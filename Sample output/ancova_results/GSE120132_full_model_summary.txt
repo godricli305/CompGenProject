@@ -1,0 +1,35 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Predicted_Age_Weeks   R-squared:                       0.751
+Model:                             OLS   Adj. R-squared:                  0.745
+Method:                  Least Squares   F-statistic:                     146.8
+Date:                 Fri, 02 May 2025   Prob (F-statistic):          6.09e-154
+Time:                         15:47:28   Log-Likelihood:                -946.12
+No. Observations:                  549   AIC:                             1916.
+Df Residuals:                      537   BIC:                             1968.
+Df Model:                           11                                         
+Covariance Type:             nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    6.8105      0.339     20.064      0.000       6.144       7.477
+Tissue[T.Blood]                              5.8969      0.441     13.364      0.000       5.030       6.764
+Tissue[T.Kidney]                             1.0833      0.399      2.715      0.007       0.300       1.867
+Tissue[T.Liver]                              2.5897      0.461      5.621      0.000       1.685       3.495
+Tissue[T.Lung]                               0.7461      0.475      1.572      0.117      -0.186       1.679
+Tissue[T.Muscle]                             2.3923      0.461      5.192      0.000       1.487       3.297
+Chronological_Age_weeks                      0.0215      0.006      3.684      0.000       0.010       0.033
+Chronological_Age_weeks:Tissue[T.Blood]      0.0141      0.008      1.858      0.064      -0.001       0.029
+Chronological_Age_weeks:Tissue[T.Kidney]    -0.0027      0.007     -0.388      0.698      -0.016       0.011
+Chronological_Age_weeks:Tissue[T.Liver]      0.0502      0.008      6.244      0.000       0.034       0.066
+Chronological_Age_weeks:Tissue[T.Lung]       0.0044      0.008      0.535      0.593      -0.012       0.020
+Chronological_Age_weeks:Tissue[T.Muscle]    -0.0057      0.008     -0.707      0.480      -0.021       0.010
+==============================================================================
+Omnibus:                       48.477   Durbin-Watson:                   1.651
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              106.294
+Skew:                           0.499   Prob(JB):                     8.29e-24
+Kurtosis:                       4.911   Cond. No.                         968.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
