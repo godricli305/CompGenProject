@@ -19,7 +19,7 @@
 1. Download GSE93957_exchange.tar.gz and GSE120132_RAW.tar
 2. Put GSE93957_exchange.tar.gz and GSE120132_RAW.tar into this folder, which contains code_sub.ipynb
 3. Unzip GSE93957_exchange.tar.gz and GSE120132_RAW.tar
-4. Run every code block in code_sub.ipynb in order - the output folder 'ancova_results' should have the same content as th 'Sample Output' folder
+4. Run every code block in code_sub.ipynb in order - the output folder 'ancova_results' should have the same content as the 'Sample output' folder
 
 ## Required Libraries
 1. pandas
